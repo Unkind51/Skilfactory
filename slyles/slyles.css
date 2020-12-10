@@ -24,6 +24,10 @@
         margin: 0 auto;
     }
 
+    div .header__logo, .header__number, .header__button, .header-navigation {
+        cursor: pointer;
+    }
+
     .header__logo {
         color: #E3B873;
         margin: 37px 72px 36px 92px;
@@ -107,6 +111,10 @@
         padding: 19px 42px 21px 41px;
         color: #FFFFFF;
         font-family: Nunito Sans;
+    }
+
+    .button {
+        cursor: pointer;
     }
 
     .button__cost {
